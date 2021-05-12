@@ -1,0 +1,242 @@
+/* desktops, large screens 1200px */
+
+@media only screen and (max-width: 1200px) {
+    body {
+        font-size: 1.3em;
+    }
+    .subheading {
+        margin-bottom: 8%;
+    }
+    .about-para p {
+        /* background-color: lightskyblue; */
+        width: 100%;
+        padding: 0% 11%;
+    }
+    .hobbies-para p,
+    .hobbies-para h3 {
+        width: 100%;
+        padding: 0% 11%;
+    }
+    #first-quote {
+        /* background-color: yellow; */
+        font-size: 1.1em;
+        padding: 15% 10% 20% 10%;
+    }
+    .project-box h3 {
+        font-size: 1em;
+        width: 90%;
+    }
+    .project-box p {
+        font-size: 0.9em;
+    }
+    .project-box i {
+        font-size: 1.3em;
+        padding: 0% 5% 5% 5%;
+        color: rgb(197, 128, 0);
+    }
+    #bubble-intro {
+        padding: 6% 15% 12% 15%;
+        /* background-color: red; */
+    }
+    #logo {
+        width: 23%;
+    }
+}
+
+
+/* small screens, laptops from 769px to 1024px */
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 1.2em;
+        letter-spacing: 1px;
+    }
+    .subheading {
+        margin-bottom: 8%;
+    }
+    nav li {
+        /* background-color: yellow; */
+        font-size: 0.8em;
+    }
+    .about-para p {
+        /* background-color: lightskyblue; */
+        width: 100%;
+        padding: 0% 12%;
+    }
+    .hobbies-para p,
+    .hobbies-para h3 {
+        width: 100%;
+        padding: 0% 12%;
+    }
+    #hobbies img {
+        width: 70%;
+    }
+    #first-quote {
+        text-align: center;
+        padding: 20% 10% 20% 10%;
+        line-height: 1.3em;
+        /* background-color: lightgreen */
+    }
+    .project-box {
+        /* background-color: lightyellow; */
+        margin-top: 5%;
+    }
+    .project-box h3 {
+        font-size: 1em;
+        width: 100%;
+    }
+    .project-box .container {
+        margin: 20% 0 15% 0;
+    }
+    #projects span {
+        font-size: 1.1em;
+    }
+    #bubble-intro {
+        padding: 10% 15% 10% 15%;
+        /* background-color: red; */
+    }
+    .bubble-box h4 {
+        font-size: 1em;
+    }
+    #bubble a {
+        padding: 20% 60%;
+        font-size: 0.5em;
+    }
+    #contact h4 {
+        font-size: 1.1em;
+        text-align: center;
+        /* background-color: darkgrey; */
+        margin-top: 4%;
+        margin-bottom: 6%;
+    }
+    .btn7 {
+        font-size: 0.8em;
+    }
+}
+
+
+/* tablets, iPads: from 481px to 775px */
+
+
+/* @media only screen and (max-width: 775px) {
+    html,
+    body {
+        height: 100vh;
+    }
+    body {
+        font-size: 1em;
+        letter-spacing: 1px;
+    }
+    .subheading {
+        margin-bottom: 10%;
+    }
+    nav li span:active {
+        all: initial;
+    }
+    nav li span:after {
+        all: initial;
+    }
+    nav li span:hover:after {
+        all: initial;
+    }
+    .about-para p {
+        background-color: lightskyblue;
+        width: 100%;
+        padding: 0% 11%;
+    }
+    .hobbies-para p,
+    .hobbies-para h3 {
+        width: 100%;
+        padding: 0% 11%;
+    }
+    .hobbies-para h3 {
+        font-size: 1.2em;
+    }
+    #projects span {
+        font-size: 1em;
+    }
+    #bubble-intro {
+        padding: 5% 15% 10% 15%;
+        background-color: red;
+    }
+} */
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size)
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 12px;}
+  } */
+
+
+/* mobile devices: from 0 to 480px */
+
+@media only screen and (max-width: 550px) {
+    body {
+        font-size: 0.8em;
+    }
+    #content .container {
+        padding: 0% 10%
+    }
+    #logo {
+        width: 40%;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .subheading {
+        padding: 0%;
+        /* background-color: blue; */
+    }
+    #about img {
+        width: 70%;
+    }
+    #hobbies {
+        margin-bottom: 10%;
+    }
+    #first-quote {
+        margin-bottom: 10%;
+    }
+    #bubble a {
+        padding: 8px 16px
+    }
+    #bubble .bubble-box {
+        margin: 0% 15%;
+    }
+    #contact .item {
+        font-size: 0.8em;
+    }
+    #footer {
+        margin-bottom: 10%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #welcome {
+        background-image: radial-gradient(rgba(0, 0, 255, 0.1), rgba(0, 0, 218, 0)), url(../img/bg-min-min.jpg)
+    }
+    #sidenav {
+        display: none;
+    }
+    header {
+        display: block
+    }
+    .subheading {
+        padding: 0%;
+        /* background-color: blue; */
+    }
+    #hobbies img {
+        width: 100%;
+    }
+    .container#projects {
+        padding: 0% 10% 0% 10%
+    }
+    #projects .subheading {
+        padding-left: 6%;
+    }
+    #footer {
+        margin-bottom: 40%;
+    }
+}

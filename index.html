@@ -1,243 +1,312 @@
 <!DOCTYPE html>
-<html lang='ja'>
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118778920-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+<html lang="en">
 
-          gtag('config', 'UA-118778920-1');
-        </script>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/grid.css">
-        <link rel="stylesheet" href="css/ionicons.min.css">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/queries.css">
-            
-        
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
-        <title>高橋ユキヒデ</title>
-        
-    </head>
-    <body>
-        <header id="home">
-            <nav>
-                <div class="row">
-                    <div class="row">
-                        <img src="...."> <!--small profile picture-->
-                    </div>
-                    <div class="row">
-                        <p>シンガポール国立大学　工業・システム工学科　二年生</p>
-                        <p>冒険家、永遠の修行僧</p>
-                    </div>
-                    <ul class="main-nav js--main-nav">
-                        <li class="About me"><a href="#about">プロフィール</a></li>
-                        <li class="Hobbies"><a href="#hobbies">趣味</a></li>
-                        <li class="Projects"><a href="#projects">ポートフォリオ</a></li>
-                        <li class="Yuki's Thought Bubble"><a href="#bubble">ユキヒデの独り言</a></li>
-                        <li class="Get in Touch"><a href="#contact">全ては一通のメールから</a></li>
-                    </ul>
-                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0DRB8K59TW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0DRB8K59TW');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descrition" content="Yukihide is a Singapore-Japan mix, currently an undergraduate at the National University of Singapore.">
+    <meta name="keywords" content="Yukihide">
+    <link rel="icon" href="img/favicon.ico">
+    <!-- normalize across browsers -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- only use this when want to display columns of equal width -->
+    <!-- <link rel="stylesheet" href="css/grid.css"> -->
+
+    <!-- only for icons -->
+    <script src="https://kit.fontawesome.com/e19efbd276.js" crossorigin="anonymous"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css" rel="stylesheet"> -->
+
+    <!-- containers -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- basic font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- buttons -->
+    <link rel="stylesheet" href="css/buttons.css">
+
+    <!-- custom styling -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- media queries -->
+    <link rel="stylesheet" href="css/queries.css">
+
+    <!-- animations -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+
+    <title>高橋ユキヒデ</title>
+
+</head>
+
+<body>
+    <img src="img/logo.gif" alt="" id="logo">
+    <div id="main">
+        <div class="row" id="welcome">
+            <p>Welcome<br><span id="jp">こんにちは</span><br><span id="ch">你好</span></p>
+        </div>
+        <header class="nav-down">
+            <div class="row" id="topnav">
+                <div class="col-5">
+                    <p>Yukihide Takahashi</p>
                 </div>
-            </nav>
-            
+                <div class="col" id="btn_menu"><i class="fas fa-bars"></i></div>
+            </div>
         </header>
-        <section class="section-about js--section-about" id="about">
-            <div class="row">
-                <h2>About Me</h2>
-                <div class="portfolio-box">
-                    <img src="img/7.jpg"> <!--first picture-->
-                    <p class="long-copy">高橋ユキヒデ、大学生</p>
-                    <p class="long-copy">1999年9月1日シンガポールで生まれる。台湾、日本での生活を経て、シンガポールでの2年の兵役を務めた後、シンガポール国立大学に入学。</p>
-                </div>
-                <div class="portfolio-box">
-                    <img src="img/7.jpg"> <!--second picture-->
-                    <p class="long-copy">略歴</p>
-                    <ol>
-                        <li>2018年3月　渋谷教育学園渋谷高等学校　卒業</li>
-                        <li>2018年9月　シンガポール陸軍基礎教育隊　入隊</li>
-                        <li>2018年12月　シンガポール陸軍幹部養成学校　入校</li>
-                        <li>2019年8月　幹部養成学校を卒業し、第九普通科連隊に小隊長として配属される</li>
-                        <li>2020年8月　任期満了</li>
-                        <li>同上　シンガポール国立大学　工業・システム工学科　入学</li>
-                    </ol>
-                </div>
-            </div>
-
-            
-        </section>
-
-        <div class="row">
-            <img src="....."> <!--nice picture-->
-            <p>2k540 Aki-Oka Artisan（秋葉原、御徒町）で出会ったコンパス。外出する際は必ず身に着けている。</p> <!--caption-->
+        <div class="selection">
+            <ul>
+                <li><span onclick="window.location='#about'">About Me</span></li>
+                <li><span onclick="window.location='#hobbies'">Hobbies</span></li>
+                <li><span onclick="window.location='#projects'">Projects</span></li>
+                <li><span onclick="window.location='#bubble'">Blog</span></li>
+                <li><span onclick="window.location='#contact'">Get in touch</span></li>
+                <li><span onclick="window.location='https://yuki-zmstr.github.io/en'">English</span></li>
+            </ul>
         </div>
-
-        <section class="section-hobbies" id="hobbies">
+        <nav class="sidenav" id="sidenav">
             <div class="row">
-                <h2>趣味</h2>
+                <p>Yukihide<br>Takahashi</p>
             </div>
-            <div class="portfolio-box">
-                <img src="img/7.jpg"> <!--vball picture-->
-                <head>バレーボール</head>
-                <p class="long-copy">かれこれ10年。高校時代はキャプテンを務めさせて頂いた。</p>
-                <p class="long-copy">健康な心体だけではなく、たくさんの出会いをもたらしてくれたこのスポーツに、心から感謝している。</p>
-            </div>
-            <div class="portfolio-box">
-                <img src="img/7.jpg"> <!--mountain picture-->
-                <head>冒険</head>
-                <p class="long-copy">見たことない景色を求め、日々町に繰り出してる。旅先での困難は、素敵な写真とともに一つ一つの経験を彩る。</p>
-                <p class="long-copy">雲取山（くもどりやま、東京都、標高2017m）での一枚。酸素濃度が80％に差し掛かった頃は少しばかり体が重かった。</p>
-            </div>
+            <ul>
+                <li><span onclick="window.location='#about'">About Me</span></li>
+                <li><span onclick="window.location='#hobbies'">Hobbies</span></li>
+                <li><span onclick="window.location='#projects'">Projects</span></li>
+                <li><span onclick="window.location='#bubble'">Blog</span></li>
+                <li><span onclick="window.location='#contact'">Get in touch</span></li>
+                <li><span onclick="window.location='https://yuki-zmstr.github.io/j'">日本語ページへ</span></li>
+                <!-- <li><a href="#about">About Me</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#bubble">Blog</a></li>
+                    <li><a href="#contact">Get in touch</a></li>
+                    <li><a href="https://yuki-zmstr.github.io/jp" target="_blank">日本語ページへ</a></li> -->
 
-        <div class="row">
-            <p>ヒトの脳は経験を元に学習していく。経験こそ一番の財産だ。</p> <!--quote-->
-        </div>
+            </ul>
+        </nav>
+        <div class="container-fluid" id="content">
+            <div class="row">
+                <section class="container" id="about">
+                    <div class="row">
+                        <h2 class="subheading sc" id="about-hd">
+                            01&nbsp;&nbsp;&nbsp;&nbsp;About Me
+                        </h2>
 
-        </section>
-        <section class="section-projects js--section-projects" id="projects">
-            <div class="row">
-                <h2>ポートフォリオ</h2>
-            </div>
-            <div class="row">
-                <div class="col span-1-of-2 box">
-                    <div class="portfolio-box js--wp-2">
-                        <div>
-                            <h3>作業効率を測定するPythonツール</h3>
-                            <img class="zoomout" src="img/horse.png"> <!--snippet of spread sheet-->
+                        <img class="sc" alt="Yukihide's profile picture" src="img/pp.png">
+                        <!--first picture-->
+
+                        <!-- <div class="container-sm sc" id="about-first-para"> -->
+                        <div class="row about-para sc">
+                            <p>シンガポールで大学生をしています。</p>
+                            <p>2018年3月　渋谷教育学園渋谷高等学校　卒業</p>
+                            <p>2018年8月～2020年8月　シンガポール陸軍にて兵役を務める。（第九普通科連隊　小隊長）</p>
+                            <p>2020年8月　シンガポール国立大学　工業・システム工学科　入学</p>
                         </div>
-                        <div>
-                            <p class="short-copy">専門商社にて、作業効率を測定し可視化するアプリを開発。</p>
-                            <i class="ion-social-python-outline icon-small"></i>
-                            <i class="ion-social-google-outline icon-small"></i>
-                            
+                        <!-- </div> -->
+                        <!-- <div class="container-sm sc" id="about-second-para"> -->
+                        <div class="row about-para sc">
+                            <p>シンガポールと台湾に住んだ経験（シンガポールに7年間、台湾に6年間）があるため、英語と日本語に加えて会話レベルの中国語もできます。</p>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                </section>
+                <section class="container" id="hobbies">
+                    <div class="row">
+                        <h2 class="subheading sc" id="hobbies-hd">
+                            02&nbsp;&nbsp;&nbsp;&nbsp;Hobbies
+                        </h2>
+                        <div class="row hobbies-para sc dummy">
+                            <h3>バレーボール</h3>
+                            <p>かれこれ10年。たくさんの出会いをもたらしてくれたこのスポーツに、心から感謝しています。</p>
+                            <p>高校時代はキャプテンを務めさせて頂きました。</p>
+                        </div>
+                        <div class="row hobbies-para sc">
+                            <h3>冒険</h3>
+                            <p>見たことない景色を求め、日々町に繰り出しています。旅先の困難さえも楽しめるような、強い精神を身につけたいものです</p>
+                            <p>雲取山（くもどりやま、東京都、標高2017m）での一枚。酸素濃度が地上の80％に差し掛かった時は少しばかり体が重かったです。</p>
+                        </div>
+                        <img class="sc" alt="View from Mount. Kumodori" src="img/kumo.jpg">
+                    </div>
+                </section>
+                <section class="container sc" id="first-quote">
+                    <!-- <div class="row sc"> -->
+                    <p>人は経験を元に学習していく。</p>
+                    <p>経験こそ一番の財産。</p>
+                    <!-- </div> -->
+                </section>
+                <section class="container" id="projects">
+                    <div class="row">
+                        <h2 class="subheading sc">03&nbsp;&nbsp;&nbsp;&nbsp;Projects</h2>
+                    </div>
+                    <div class="row sc">
+                        <div class="col-sm">
+                            <div class="project-box">
+                                <h3>作業効率の測定</h3>
+                                <div class="row">
+                                    <img alt="Snippet of system in action" src="img/NS.PNG">
+                                </div>
+                                <div>
+                                    <p>専門商社にて、作業効率をリアルタイムで測定しGoogle Sheetsを用いて可視化するツールを開発。</p>
+                                    <div class="proj-icons">
+                                        <i class="fab fa-python"></i>
+                                        <i class="fab fa-google-drive"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="project-box">
+                                <h3>資源供給のシミュレーション</h3>
+                                <div class="row">
+                                    <img alt="Snippet of tool in action" src="img/IE1111R.PNG">
+                                </div>
+                                <div>
+                                    <p>災害時の発生する様々な需要を想定し、最適な供給バランスを割り出すツール。大学の授業の一巻で開発した。</p>
+                                    <div class="proj-icons">
+                                        <i class="fas fa-file-excel"></i>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col span-1-of-2 box">
-                    <div class="portfolio-box js--wp-2">
-                        <div>
-                            <h3>資源の供給の最適化</h3>
-                            <img class="zoomout" src="img/tetris.png"><!--snippet of excel-->
+                    <div class="row sc">
+                        <div class="col-sm">
+                            <div class="project-box">
+                                <h3>画像処理</h3>
+                                <div class="row">
+                                    <img alt="Snippet of tool in action" src="img/frame.jpg">
+                                </div>
+                                <div>
+                                    <p>画像処理を行う簡単なPythonスクリプト。皆さんが最初に見たロゴもこれを用いて処理した。</p>
+                                    <div class="proj-icons">
+                                        <i class="fab fa-python"></i>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <p class="short-copy">災害時の発生する様々な需要に対し、最適な供給バランスを割り出すツール。大学の授業の一巻で開発した。</p>
-                            <i class="ion-social-excel-outline icon-small"></i>
+                        <div class="col-sm">
+                            <div>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    <p class="many-more sc">And many more to come!</p>
+                </section>
+                <section class="container" id="bubble">
+                    <div class="row">
+                        <h2 class="subheading sc">04&nbsp;&nbsp;&nbsp;&nbsp;ユキヒデの独り言</h2>
+                    </div>
+                    <div class="row sc" id="bubble-intro">
+                        <p>よく一人で考えに更けています。おそらく存在しない僕の熱狂的なファンのために、最近の独り言をいくつか。</p>
+                    </div>
+                    <div class="row bubble-box sc">
+                        <h4>時には待つことも大事、</h4>
+                        <div class="row">
+                            <div class="col">
+                                <p>そう思いませんか？</p>
+                            </div>
+                            <div class="col-2">
+                                <a class="btn10" href="" target="_blank">Read More</a>
+                                <!-- href="https://wordpress.com/page/opentopopenended.wordpress.com/5 -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="row bubble-box">
+                            <h5>Patience is key</h5>
+                            <div class="row">
+                                <div class="col">
+                                    <p>Isn't it?</p>
+                                </div>
+                                <div class="col-2">
+                                    <a class="btn10" href="https://wordpress.com/page/opentopopenended.wordpress.com/5" target="_blank">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row bubble-box">
+                            <h5>Patience is key</h5>
+                            <div class="row">
+                                <div class="col">
+                                    <p>Isn't it?</p>
+                                </div>
+                                <div class="col-2">
+                                    <a class="btn10" href="https://wordpress.com/page/opentopopenended.wordpress.com/5" target="_blank">Read More</a>
+                                </div>
+                            </div>
+                        </div> -->
+                </section>
+                <section class="container" id="contact">
+                    <div class="row">
+                        <div class="row">
+                            <h2 class="subheading sc">05&nbsp;&nbsp;&nbsp;&nbsp;Get in touch</h2>
+                        </div>
+                        <h4 class="sc">全ては一通のメールから</h4>
+                        <div class="row item sc">
+                            <div class="col-5">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="col-4">
+                                <p>yukihide99@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="row item sc">
+                            <div class="col-5">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="col-4">
+                                <p>010 65 8183 2057</p>
+                            </div>
+                        </div>
+                        <div class="row item sc">
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/profile.php?id=100009808110440" target="_blank" class="fab fa-facebook-square"></a>
+                                    <a href="https://www.linkedin.com/in/yukihide-takahashi-68366a1b7/" target="_blank" class="fab fa-linkedin"></a>
+                                    <a href="https://www.instagram.com/yuki.zmstr/?hl=en" target="_blank" class="fab fa-instagram"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="container sc" id="footer">
+                    <div class="row">
+                        <a class="btn7" href="#about">最初に戻る</a>
+                    </div>
+                    <div class="row">
+                        <p>
+                            Thank you for your time. &#169; 2021 Yukihide Takahashi
+                        </p>
+                    </div>
+                </section>
             </div>
-            <p>To be updated…</p>
-        </section>
-        <section class="section-bubble" id="bubble">
-            <div class="row">
-                <h2>ユキヒデの独り言</h2>
-            </div>
-            <div class="row">
-                <h2>よく一人で考えに更けています。おそらく存在しない僕の熱狂的なファンのために、最近の独り言をいくつか。</h2>
-            </div>
-            <div class="row">
-                
-                <h3>Title 1</h3>
-                <p>Content 1</p>
-                <a class="btn btn-full js--scroll-to-start" href="https://wordpress.com/page/opentopopenended.wordpress.com/5" target="_blank">Read More</a>
-            </div>
-            <div class="row">
-                
-                <h3>Title 2</h3>
-                <p>Content 2</p>
-                <a class="btn btn-full js--scroll-to-start" href="https://wordpress.com/page/opentopopenended.wordpress.com/5" target="_blank">Read More</a>
-            </div>
-            <div class="row">
-                
-                <h3>Title 3</h3>
-                <p>Content 3</p>
-                <a class="btn btn-full js--scroll-to-start" href="https://wordpress.com/page/opentopopenended.wordpress.com/5" target="_blank">Read More</a>
-            </div>
-        </section>
+        </div>
+    </div>
 
-        <section class="section-form" id="contact">            
-            <div class="form-box">
-                <div class="row">
-                    <h2>全ては一通のメールから</h2>
-                    
-                </div>
-                <div class="row">
-                    <form method="post" action="#" class="contact-form">
-                        <div class="row">
-                            <div class="col span-1-of-3">
-                                <label for="name">お名前</label>
-                            </div>
-                            <div class="col span-2-of-3">
-                                <input type="text" name="name" id="name" placeholder="お名前" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col span-1-of-3">
-                                <label for="email">メールアドレス</label>
-                            </div>
-                            <div class="col span-2-of-3">
-                                <input type="email" name="email" id="email" placeholder="メールアドレス" required>
-                            </div>
-                        </div>
-                        
-                        
-                        <div class="row">
-                            <div class="col span-1-of-3">
-                                <label>何なりと</label>
-                            </div>
-                            <div class="col span-2-of-3">
-                                <textarea name="message" placeholder="Your message" id="何なりと"></textarea>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col span-1-of-3">
-                                <label>&nbsp;</label>
-                            </div>
-                            <div class="col span-2-of-3">
-                                <input type="submit" value="送る">
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <div class="row">
-                <div class="col span-1-of-2">
-                    <ul class="footer-nav">
-                        <li><a href="#home">最初に戻る</a></li>
-                    </ul>
-                </div>
-                <div class="col span-1-of-2">
-                    <ul class="social-links">
-                        <li><a href="https://www.facebook.com/profile.php?id=100009808110440" target="_blank"><i class="ion-social-facebook"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/yukihide-takahashi-68366a1b7/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
-                        <li><a href="https://www.instagram.com/yuki.zmstr/?hl=en" target="_blank"><i class="ion-social-instagram"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <p>
-                    (C) Yukihide Takahashi, 2021
-                </p>
-            
-            </div>
-            
-        
-        </footer>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="js/script.js"></script>
-        
-        <script src="js/jquery.waypoints.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
-        <script src="js/in-view.min.js"></script>
-    </body>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <!-- <script src="js/in-view.min.js"></script> -->
+</body>
+
 </html>
