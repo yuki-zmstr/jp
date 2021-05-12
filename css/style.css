@@ -22,7 +22,7 @@ body {
 }
 
 #main {
-    visibility: true;
+    visibility: hidden;
     margin: 0%
 }
 
