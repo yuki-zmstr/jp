@@ -530,6 +530,10 @@ nav li span:hover:after {
     padding-top: 1%;
 }
 
+#contact .item.icons {
+    margin: auto
+}
+
 #contact .col-5 {
     text-align: right;
 }
