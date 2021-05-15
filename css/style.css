@@ -24,7 +24,7 @@ body {
 }
 
 #main {
-    visibility: true;
+    visibility: hidden;
 }
 
 #logo {
