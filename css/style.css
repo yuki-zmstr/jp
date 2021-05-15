@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+/* @import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css); */
+
 
 /* ----------------------------------------------- */
 
@@ -13,17 +14,17 @@ body {
     width: 100%;
     overflow-x: hidden;
     background-color: rgb(246, 255, 248);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 2vw;
 }
 
 body {
-    font-family: 'Shippori Mincho', sans-serif;
-    font-size: x-large;
-    /* background-color: rgb(249, 248, 255); */
+    font-family: "Shippori Mincho", sans-serif;
 }
 
 #main {
     visibility: hidden;
-    margin: 0%
 }
 
 #logo {
@@ -32,7 +33,23 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+#content .container {
+    /* background-color: lightcoral; */
+    padding: 0 25px 200px 25px;
+    margin: auto
+}
+
+.subheading {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.75rem;
+    padding: 0px;
+    padding-left: 20px;
+    margin: 0px;
 }
 
 
@@ -48,15 +65,14 @@ body {
     width: 100%;
     height: 100%;
     margin: 0px;
-    /* border: 0px; */
     padding: 0px;
     position: absolute;
-    z-index: 2;
-    background-image: radial-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 218, 0)), url(../img/bg-min.jpg);
-    /* rgba(0, 0, 218, 0.2), rgba(0, 0, 218, 0.2) */
+    z-index: 1;
+    background-image: -webkit-radial-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 218, 0)), url(../img/bg-min-min.jpg);
+    background-image: radial-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 218, 0)), url(../img/bg-min-min.jpg);
     background-size: 100%;
     background-position-y: 50%;
-    font-size: 1.4em;
+    font-size: 1.3rem;
 }
 
 #welcome p {
@@ -66,18 +82,13 @@ body {
     color: white;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     letter-spacing: 1px;
-    /* background-color: wheat; */
-}
-
-#jp {
-    font-family: 'Shippori Mincho', sans-serif;
 }
 
 #ch {
-    font-family: 'cwTeXKai', sans-serif;
-    font-size: 1.1em;
+    font-family: 'Ma Shan Zheng', cursive;
 }
 
 
@@ -91,15 +102,16 @@ body {
 
 header {
     margin-top: 2%;
-    display: none;
+    display: block;
     width: 100%;
     height: auto;
     background-color: rgba(0, 0, 0, 0.1);
     font-family: 'Poppins', sans-serif;
-    padding: 1% 6%;
+    padding: 5px 20px;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 2;
+    -webkit-transition: top 0.4s ease-in-out;
     transition: top 0.4s ease-in-out
 }
 
@@ -109,37 +121,25 @@ header {
 
 #btn_menu {
     text-align: right;
-    /* background-color: lightslategray; */
     position: relative;
-    padding-right: 5%
 }
 
 #btn_menu i {
-    /* background-color: mediumblue; */
     padding: 5%;
-    font-size: large;
+    font-size: 1rem;
     position: absolute;
     top: 50%;
-    transform: translate(0, -50%) rotate(90deg);
+    -webkit-transform: translate(-60%, -50%) rotate(90deg);
+    transform: translate(-60%, -50%) rotate(90deg);
 }
 
 #topnav p {
-    /* background-color: lightcyan; */
+    font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 600;
     text-align: center;
     color: black;
-    margin: 0%
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    /* background-color: rgba(255, 255, 255, 0.98); */
-    /* box-shadow: 0 2px 2px #efefef; */
-    z-index: 9999;
+    margin: 0%;
 }
 
 
@@ -153,26 +153,22 @@ header {
 
 .selection {
     display: none;
-    /* background-color: magenta; */
     position: fixed;
-    top: 20%;
-    right: 5%;
-    z-index: 1;
+    top: 100px;
+    right: 50px;
+    z-index: 2;
 }
 
 .selection ul {
-    /* background-color: mediumaquamarine; */
     text-align: center;
 }
 
 .selection li {
-    /* background-color: yellow; */
     list-style: none;
-    font-size: large;
-    line-height: 2.5em;
-    list-style: none;
+    font-size: 1.2rem;
+    line-height: 3rem;
     margin: 0px;
-    padding: 0;
+    padding: 0px;
     cursor: pointer;
 }
 
@@ -186,40 +182,31 @@ header {
 /* ----------------------------------------------- */
 
 .sidenav {
+    display: none;
     width: 15%;
-    /* Set the width of the sidebar */
     position: fixed;
-    /* Fixed Sidebar (stay in place on scroll) */
     overflow-x: hidden;
     margin: 1%;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
-    /* border:4px solid blue; */
-    padding: 0%
+    padding: 0%;
 }
 
 .sidenav p {
-    /* background-color: tomato; */
     font-weight: 600;
     padding: 30% 0%;
-    /* position: absolute; */
-    /* left: 50%;
-  transform: translate(-50%); */
     text-align: center;
-    color: black;
     margin: 0%
 }
 
 nav ul {
     margin: 0%;
     padding: 0%;
-    display: block;
 }
 
 nav li {
-    /* background-color: yellow; */
-    font-size: large;
-    line-height: 3em;
+    font-size: 0.9rem;
+    line-height: 3rem;
     list-style: none;
     margin: 0px;
     padding: 0;
@@ -227,15 +214,13 @@ nav li {
 }
 
 nav li span {
-    /* background-color: beige; */
     width: auto;
-    color: black;
     display: inline-block;
     text-align: center;
-    /* text-decoration: none; */
     position: relative;
     padding: 0%;
     left: 50%;
+    -webkit-transform: translate(-50%);
     transform: translate(-50%);
 }
 
@@ -257,31 +242,16 @@ nav li span:hover:after {
     position: absolute;
     width: 100%;
     left: 50%;
+    -webkit-transform: translate(-50%);
     transform: translate(-50%);
     right: 0
 }
 
 #content {
     position: absolute;
-    letter-spacing: 0.01em;
     line-height: 150%;
     top: 100%;
-    /* background-color: green; */
     padding-top: 10%;
-}
-
-#content .container {
-    padding: 0% 10% 0% 15%
-}
-
-.subheading {
-    text-align: left;
-    font-weight: bold;
-    font-size: 1.5em;
-    position: relative;
-    padding: 0% 8%;
-    margin-bottom: 6%;
-    /* background-color: blue; */
 }
 
 
@@ -295,26 +265,21 @@ nav li span:hover:after {
 
 #about {
     margin-top: 10%;
-    /* background-color: yellow; */
-}
-
-#about img {
-    width: 50%;
-    margin: auto;
-    /* transform: translate(50%); */
-    margin-bottom: 8%;
 }
 
 .about-para {
-    padding-bottom: 15%;
     /* background-color: red; */
-    /* background-color: yellow; */
+    padding: 0 50px 100px 50px;
+    width: 100%;
+    margin: 0px
 }
 
-.about-para p {
-    /* background-color: lightskyblue; */
-    width: 100%;
-    padding: 0% 20%;
+#about img {
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px
 }
 
 
@@ -326,36 +291,28 @@ nav li span:hover:after {
 
 /* ----------------------------------------------- */
 
-
-/* #hobbies {
-  background-color: blue;
-} */
-
-#hobbies h3 {
-    font-size: 1.1em;
-    margin-bottom: 3%;
+.hobbies-para {
+    /* background-color: pink; */
+    padding: 100px 50px 0px 50px;
+    width: 100%;
+    margin: 0px
 }
 
-
-/* .hobbies-para {
-  background-color: yellowgreen;
-} */
-
-.hobbies-para p,
-.hobbies-para h3 {
-    width: 100%;
-    padding: 0% 20%;
+#hobbies h3 {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .dummy {
-    padding-bottom: 18%;
+    margin-bottom: 100px;
+    /* background-color: blue; */
 }
 
 #hobbies img {
-    width: 60%;
+    width: 90%;
+    height: 90%;
     margin: auto;
-    margin-top: 5%;
-    /* border-radius: 50%; */
 }
 
 
@@ -368,10 +325,8 @@ nav li span:hover:after {
 /* ----------------------------------------------- */
 
 .container#first-quote {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 20%
 }
 
 
@@ -383,80 +338,75 @@ nav li span:hover:after {
 
 /* ----------------------------------------------- */
 
-
-/* #projects {
-  background-color: lightcoral;
-} */
-
-#projects .row.sc {
-    margin-left: 5%;
+#projects .col-lg {
+    margin-top: 100px;
 }
 
 .project-box {
     background-color: lightyellow;
     border: 2px solid orange;
-    position: relative;
     border-radius: 5%;
-    padding: 0% 8%;
-    margin-bottom: 10%;
+    margin: auto;
+    padding: 0px 50px
 }
 
 .project-box h3 {
     background-color: rgb(246, 255, 248);
-    border-radius: 20%;
-    padding: 5% 0%;
-    /* Same as background */
-    width: 100%;
-    /* position: absolute; */
-    /* left: 50%; */
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    padding: 30px 0px;
+    font-size: 1.2rem;
+    width: 90%;
+    margin: auto;
     text-align: center;
-    /* transform: translate(-50%, -50%); */
-    margin-bottom: 10%;
-}
-
-.project-box .row {
-    margin-bottom: 5%
 }
 
 .project-box img {
-    max-width: 100%;
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
     margin: auto;
     display: block;
+    margin-top: 40px;
+    margin-bottom: 20px
+}
+
+.project-box p {
+    /* background-color: lightseagreen; */
+    text-align: center;
+    font-size: 1rem;
+    padding: 0px 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .project-box img:hover {
     opacity: 1;
     -webkit-transform: scale(1.03);
     transform: scale(1.1);
+    -webkit-transition: transform 0.5s;
     transition: transform 0.5s
-}
-
-.project-box p {
-    text-align: center;
-    font-size: 0.9em;
-    /* background-color: yellowgreen; */
-    position: relative;
 }
 
 .proj-icons {
     display: flex;
     justify-content: center;
     clear: both;
-    /* background-color: violet; */
+    margin: 15px 0px
 }
 
 .project-box i {
-    font-size: 1.5em;
-    padding: 0% 5% 5% 5%;
+    /* background-color: yellow; */
+    font-size: 2rem;
+    padding: 0 30px 0 30px;
     color: rgb(197, 128, 0);
 }
 
 .many-more {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     font-weight: 800;
-    /* background-color: teal; */
-    padding: 10% 0% 20% 0%;
+    padding: 50px 0px 50px 0px
 }
 
 
@@ -469,39 +419,38 @@ nav li span:hover:after {
 /* ----------------------------------------------- */
 
 #bubble {
-    /* background-color: cornsilk; */
-    margin-bottom: 10%
+    margin-bottom: 200px;
 }
 
 #bubble-intro {
-    padding: 10% 15% 10% 15%;
-    /* background-color: red; */
+    text-align: center;
+    padding: 100px 80px;
 }
 
 #bubble-intro p {
-    font-size: 1em;
-    line-height: 1.5em
+    font-size: 1rem;
 }
 
 #bubble .bubble-box {
     width: auto;
-    margin: 0% 25%;
-    /* background-color: pink; */
-    margin-bottom: 5%;
+    margin: 0 150px;
+    margin-bottom: 50px
 }
 
 #bubble .bubble-box h4 {
+    font-size: 1.1rem;
     font-weight: 600;
 }
 
 #bubble a {
-    padding: 10% 50%;
-    font-family: "Poppins", sans-serif;
+    padding: 5px 20px;
+    font-size: 0.7rem;
+    font-family: "Shippori Mincho", sans-serif;
+    -webkit-transform: translate(-20%, -20%);
     transform: translate(-20%, -20%);
     color: black;
     border: 2px solid pink;
-    letter-spacing: 1.5px;
-    line-height: 1.5em;
+    letter-spacing: 1px;
 }
 
 
@@ -513,29 +462,48 @@ nav li span:hover:after {
 
 /* ----------------------------------------------- */
 
-#contact {
-    /* background-color:violet; */
-    margin-bottom: 10%
+.container#contact {
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+    /* background-color: cyan; */
 }
 
-#contact h4 {
-    text-align: center;
-    /* background-color: darkgrey; */
-    margin-top: 4%;
-    margin-bottom: 6%;
+#contact .subheading {
+    margin-bottom: 50px;
 }
+
+
+/* #contact h4 {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px
+} */
 
 #contact .item {
-    /* background-color: yellow; */
-    padding-top: 1%;
+    margin: auto;
+    font-size: 1.1rem;
 }
 
-#contact .item.icons {
-    margin: auto
-}
-
-#contact .col-5 {
+#contact .col-6 {
+    /* background-color: aliceblue; */
     text-align: right;
+    padding-right: 40px
+}
+
+#contact .col {
+    /* background-color: brown; */
+    text-align: left;
+    padding-left: 40px
+}
+
+#contact a {
+    font-size: 2rem;
+    margin: 0 20px;
+    text-decoration: none;
+    color: rgb(187, 186, 186);
+    -webkit-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out
 }
 
 #contact li {
@@ -544,32 +512,34 @@ nav li span:hover:after {
     justify-content: center;
 }
 
-#contact a {
-    font-size: 1.8em;
-    margin: 0% 2%;
-    text-decoration: none;
-    color: rgb(187, 186, 186);
-    transition: color 0.4s ease-in-out
-}
-
 #contact a:hover {
     color: rgb(87, 87, 255)
 }
 
 
-/* Footer */
+/* ----------------------------------------------- */
 
-#footer {
+
+/* FOOTER */
+
+
+/* ----------------------------------------------- */
+
+.container#footer {
     text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    /* background-color: brown; */
 }
 
 .btn7 {
-    padding: 1% 0%;
+    padding: 10px 0px;
     text-transform: none;
-    font-family: 'Shippori Mincho', sans-serif;
+    font-family: "Shippori Mincho", sans-serif;
     margin: auto;
-    width: 25%;
+    width: 200px;
     color: black;
+    -webkit-box-shadow: inset 000px 100px 0px 0px lightgray;
     box-shadow: inset 000px 100px 0px 0px lightgray;
     -webkit-transition: all 0.6s cubic-bezier(.9, .24, .40, 1);
     transition: all 0.6s cubic-bezier(.9, .24, .40, 1)
@@ -581,12 +551,12 @@ nav li span:hover:after {
 }
 
 .btn7:hover {
+    -webkit-box-shadow: inset 00px 10px 0px 0px lightgray;
     box-shadow: inset 00px 10px 0px 0px lightgray;
     color: black;
 }
 
 #footer p {
-    font-size: 0.8em;
-    /* background-color: white; */
+    font-size: 0.8rem;
     margin: auto;
 }
