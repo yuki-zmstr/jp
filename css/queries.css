@@ -1,12 +1,136 @@
 /* ----------------------------------------------- */
 
 
+/* BIG DESKTOP */
+
+
+/* ----------------------------------------------- */
+
+@media only screen and (min-width:1500px) {
+    html,
+    body {
+        font-size: 1vw
+    }
+    .subheading {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        padding-left: 100px;
+    }
+    #content .container {
+        padding: 0 25px 150px 275px;
+        margin: auto
+    }
+    header {
+        display: none;
+    }
+    .sidenav {
+        display: block;
+    }
+    .sidenav p {
+        font-size: 1.2rem;
+    }
+    /* ----------------------------------------------- */
+    /* ABOUT ME */
+    /* ----------------------------------------------- */
+    .about-para {
+        /* background-color: blue; */
+        padding: 0 250px 150px 250px;
+    }
+    /* ----------------------------------------------- */
+    /* HOBBIES */
+    /* ----------------------------------------------- */
+    .hobbies-para {
+        /* background-color: pink; */
+        padding: 75px 250px 50px 250px;
+    }
+    .dummy {
+        margin-bottom: 75px;
+        /* background-color: blue; */
+    }
+    #hobbies img {
+        width: 75%;
+        height: 75%;
+    }
+    /* ----------------------------------------------- */
+    /* FIRST QUOTE*/
+    /* ----------------------------------------------- */
+    .container#first-quote {
+        font-size: 1.2rem;
+    }
+    /* ----------------------------------------------- */
+    /* PROJECTS*/
+    /* ----------------------------------------------- */
+    .project-box h3 {
+        padding: 20px 0px;
+    }
+    .project-box img {
+        margin-top: 20px;
+        margin-bottom: 20px
+    }
+    .many-more {
+        font-size: 1.5rem;
+        padding: 100px 0px 100px 0px
+    }
+    /* ----------------------------------------------- */
+    /* THOUGHT BUBBLE*/
+    /* ----------------------------------------------- */
+    #bubble-intro {
+        text-align: center;
+        padding: 100px 80px;
+    }
+    #bubble-intro p {
+        font-size: 1.2rem;
+    }
+    #bubble .bubble-box {
+        width: auto;
+        margin: 0 300px;
+    }
+    #bubble .bubble-box h4 {
+        font-size: 1.2rem;
+    }
+    /* ----------------------------------------------- */
+    /* CONTACT */
+    /* ----------------------------------------------- */
+    .container#contact {
+        margin-bottom: 50px;
+        padding-bottom: 0px;
+    }
+    #contact .item {
+        font-size: 1.2rem;
+        margin-top: 20px;
+    }
+    #contact .col-6 {
+        padding-right: 30px
+    }
+    #contact .col {
+        padding-left: 30px
+    }
+    #contact a {
+        font-size: 2.5rem;
+        margin: 0 10px;
+    }
+    /* ----------------------------------------------- */
+    /* FOOTER */
+    /* ----------------------------------------------- */
+    .container#footer {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    #footer p {
+        font-size: 1rem;
+    }
+}
+
+
+/* ----------------------------------------------- */
+
+
 /* DESKTOP */
 
 
 /* ----------------------------------------------- */
 
-@media only screen and (min-width:1024px) {
+@media only screen and (min-width:1080px) and (max-width:1499px) {
     /* ----------------------------------------------- */
     /* SET UP */
     /* ----------------------------------------------- */
