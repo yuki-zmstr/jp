@@ -447,7 +447,7 @@ nav li span:hover:after {
     margin: auto;
     width: 300px;
     padding: 5px 20px;
-    /* font-size: 0.7rem; */
+    font-size: 1rem;
     font-family: "Shippori Mincho", sans-serif;
     color: black;
     border: 2px solid pink;
