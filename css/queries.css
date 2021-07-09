@@ -6,10 +6,10 @@
 
 /* ----------------------------------------------- */
 
-@media only screen and (min-width:1500px) {
+@media only screen and (min-width: 1500px) {
     html,
     body {
-        font-size: 1vw
+        font-size: 1vw;
     }
     .subheading {
         font-size: 2rem;
@@ -18,7 +18,7 @@
     }
     #content .container {
         padding: 0 25px 150px 275px;
-        margin: auto
+        margin: auto;
     }
     header {
         display: none;
@@ -65,11 +65,11 @@
     }
     .project-box img {
         margin-top: 20px;
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
     .many-more {
         font-size: 1.5rem;
-        padding: 100px 0px 100px 0px
+        padding: 100px 0px 100px 0px;
     }
     /* ----------------------------------------------- */
     /* THOUGHT BUBBLE*/
@@ -100,10 +100,10 @@
         margin-top: 20px;
     }
     #contact .col-6 {
-        padding-right: 30px
+        padding-right: 30px;
     }
     #contact .col {
-        padding-left: 30px
+        padding-left: 30px;
     }
     #contact a {
         font-size: 2.5rem;
@@ -130,20 +130,20 @@
 
 /* ----------------------------------------------- */
 
-@media only screen and (min-width:1080px) and (max-width:1499px) {
+@media only screen and (min-width: 1080px) and (max-width: 1499px) {
     /* ----------------------------------------------- */
     /* SET UP */
     /* ----------------------------------------------- */
     html,
     body {
-        font-size: 1.5vw
+        font-size: 1.5vw;
     }
     .subheading {
         font-size: 1.5rem;
     }
     #content .container {
         padding: 0 25px 200px 250px;
-        margin: auto
+        margin: auto;
     }
     header {
         display: none;
@@ -180,7 +180,7 @@
         margin-top: 75px;
     }
     .project-box {
-        padding: 0px 25px
+        padding: 0px 25px;
     }
     .project-box h3 {
         padding: 10px 0px;
@@ -190,7 +190,7 @@
         width: 90%;
         height: 90%;
         margin-top: 20px;
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
     .project-box p {
         font-size: 1rem;
@@ -242,7 +242,7 @@
 
 /* ----------------------------------------------- */
 
-@media only screen and (min-width:769px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
     /* ----------------------------------------------- */
     /* SET UP */
     /* ----------------------------------------------- */
@@ -252,7 +252,7 @@
     #content .container {
         /* background-color: lightcoral; */
         padding: 0 25px 200px 200px;
-        margin: auto
+        margin: auto;
     }
     header {
         display: none;
@@ -267,7 +267,7 @@
         margin-top: 75px;
     }
     .project-box {
-        padding: 0px 20px
+        padding: 0px 20px;
     }
     .project-box h3 {
         padding: 10px 0px;
@@ -277,7 +277,7 @@
         width: 90%;
         height: 90%;
         margin-top: 20px;
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
     .project-box p {
         font-size: 0.8rem;
@@ -301,10 +301,10 @@
         padding-bottom: 0px;
     }
     #contact .col-6 {
-        padding-right: 20px
+        padding-right: 20px;
     }
     #contact .col {
-        padding-left: 20px
+        padding-left: 20px;
     }
     #contact .item {
         margin: auto;
@@ -344,7 +344,7 @@
     }
     #content .container {
         padding: 0 20px 100px 20px;
-        margin: auto
+        margin: auto;
     }
     .subheading {
         font-size: 2.5rem;
@@ -424,7 +424,7 @@
         margin-top: 75px;
     }
     .project-box {
-        padding: 0px 25px
+        padding: 0px 25px;
     }
     .project-box h3 {
         padding: 10px 0px;
@@ -434,7 +434,7 @@
         width: 90%;
         height: 90%;
         margin-top: 20px;
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
     .project-box p {
         font-size: 1.2rem;
@@ -462,15 +462,16 @@
     #bubble .bubble-box {
         width: auto;
         margin: 0 75px;
-        margin-bottom: 50px
+        margin-bottom: 50px;
     }
     #bubble .bubble-box h4 {
         font-size: 1.3rem;
     }
     #bubble a {
-        padding: 5px 15px;
-        font-size: 0.8rem;
-        line-height: 10px;
+        width: 100px;
+        padding: 5px;
+        font-size: 0.9rem;
+        line-height: 15px;
     }
     /* ----------------------------------------------- */
     /* CONTACT */
@@ -480,10 +481,10 @@
         padding-bottom: 0px;
     }
     #contact .col-6 {
-        padding-right: 15px
+        padding-right: 15px;
     }
     #contact .col {
-        padding-left: 15px
+        padding-left: 15px;
     }
     #contact a {
         font-size: 3rem;
