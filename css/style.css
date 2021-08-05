@@ -252,6 +252,8 @@ nav li span:hover:after {
     line-height: 150%;
     top: 100%;
     padding-top: 10%;
+    width: 90%;
+    margin: auto
 }
 
 
