@@ -272,8 +272,8 @@ nav li span:hover:after {
 .about-para {
     /* background-color: red; */
     padding: 0 50px 100px 50px;
-    width: 100%;
-    margin: 0px;
+    width: 80%;
+    margin: auto;
 }
 
 #about img {
@@ -296,8 +296,8 @@ nav li span:hover:after {
 .hobbies-para {
     /* background-color: pink; */
     padding: 100px 50px 0px 50px;
-    width: 100%;
-    margin: 0px;
+    width: 90%;
+    margin: auto;
 }
 
 #hobbies h3 {
